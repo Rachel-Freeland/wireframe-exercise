@@ -1,0 +1,15 @@
+header {
+  background-color: gray;
+}
+
+header img {
+  display:block;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;  
+  justify-content:space-evenly;
+  align-items:center;
+}
+
