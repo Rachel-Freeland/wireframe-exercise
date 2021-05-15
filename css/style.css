@@ -1,5 +1,6 @@
 header {
   background-color: gray;
+  margin-bottom: 30px;
 }
 
 header img {
@@ -12,4 +13,26 @@ header ul {
   justify-content:space-evenly;
   align-items:center;
 }
+
+main section {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+section:nth-child(2) {
+  border: 3px solid red;
+  margin-left: 475px;
+  margin-right: 475px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section:nth-child(3) {
+  align-items: center;
+}
+
+
+
+
 
