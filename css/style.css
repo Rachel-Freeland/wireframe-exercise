@@ -1,5 +1,5 @@
 header {
-  background-color: gray;
+  background-color:blueviolet;
   margin-bottom: 30px;
 }
 
@@ -14,25 +14,64 @@ header ul {
   align-items:center;
 }
 
+main {
+  background-color: #E6DFEA;
+}
+
+
 main section {
   display: flex;
   justify-content: center;
-  margin: 30px;
+  margin-bottom: 30px;
 }
 
 section:nth-child(2) {
-  border: 3px solid red;
   margin-left: 475px;
-  margin-right: 475px;
+  margin-right: 470px;
   justify-content: space-between;
   align-items: center;
 }
 
-section:nth-child(3) {
-  align-items: center;
+section:nth-child(3) img {  
+  margin-left: 475px;
 }
 
+section:nth-child(3) article {
+  justify-content: left;
+}
 
+section:nth-child(3) article h2 {
+  font-size: 2em;
+  margin-bottom: 20px;;
+  margin-left: 30px;
+  margin-right: 450px;
+  text-align: left;
 
+}
 
+section:nth-child(3) article div p {
+  margin-left: 30px;
+  margin-right: 470px;
+  text-align: center;
+  overflow: scroll;
+  background-color: #D4B1F4;
+}
 
+section button {
+  background-color: #D4B1F4;
+  height: 40px;
+  width: 250px;
+  justify-content: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+section button:hover {
+  background-color: #470288;
+  color:rgb(249, 255, 255);
+}
+
+footer {
+  height: 125px;
+  background-color: blueviolet;
+}
